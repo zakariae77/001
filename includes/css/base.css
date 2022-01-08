@@ -1,0 +1,60 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+/*===== VARIABLES CSS =====*/
+:root{
+  /*===== Colores =====*/
+  --first-color: #1A73E8;
+  --second-color: #222;
+  --third-color: #fff;
+  --input-color: #80868B;
+  --border-color: #DADCE0;
+
+  /*===== Fuente y tipografia =====*/
+  --body-font: 'Roboto', sans-serif;
+  --normal-font-size: 1rem;
+  --small-font-size: .75rem;
+}
+  
+/*===== BASE =====*/
+*,::before,::after{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  overflow-x: hidden;
+  margin: 0; 
+  padding: 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  text-transform: capitalize;
+  text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+    display:flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.btn_1 {
+    background:var(--first-color);
+    background-image: -webkit-linear-gradient(top, #96f63c, #448c00);
+    border-radius: 6px;
+    color: #FFFFFF;
+    border: solid #8dbd1d  1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    font-size: var(--normal-font-size);
+ }
+ 
+ .btn_1:hover {
+    border: solid #9bd317 1px;
+    background: #42a00c;
+    background-image: -webkit-linear-gradient(top, #448c00, #96f63c);
+    border-radius: 3px;
+    text-decoration: none;
+ }

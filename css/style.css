@@ -1,0 +1,13 @@
+@import "../includes/css/base.css";  /* basic setting*/
+
+/*********        Start section   *********************/
+
+.slider{
+    width: 100%;
+    height: 900px;
+    padding: 70px 5%;
+}
+.slider img{
+    width: 30%;
+    height: 100%;
+}
